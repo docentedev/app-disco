@@ -1,4 +1,4 @@
-package com.viajando.discovinilo
+package com.viajando.discovinilo.ui.activity
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -31,7 +31,7 @@ class MainActivity : ComponentActivity() {
 }
 
 @Composable
-fun Greeting(name: String, modifier: Modifier = Modifier) {
+fun Greeting(name: String, modifier: Modifier = Modifier.Companion) {
     Text(
         text = "Hello $name!",
         modifier = modifier
